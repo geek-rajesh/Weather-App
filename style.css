@@ -1,0 +1,87 @@
+.main-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: url("./image/day.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 4rem;
+  /* background-repeat: no-repeat; */
+  /* background-color: aliceblue; */
+}
+.text-input {
+  height: 6%;
+  width: 30%;
+  position: relative;
+}
+.search-bar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  font-size: larger;
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  padding-left: 2rem;
+}
+
+.city {
+  color: white;
+  font-size: 5rem;
+}
+
+.weather-output {
+  height: 40%;
+  width: 30%;
+  background-color: rgba(214, 178, 48, 0.882);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.date-time {
+  display: flex;
+  margin-top: 1rem;
+  gap: 2px;
+  height: 15%;
+  gap: 10px;
+}
+.time {
+  font-size: 2rem;
+  color: white;
+  top: 10px;
+  /* line-height: 1.5; */
+}
+
+.date {
+  font-size: medium;
+  color: white;
+}
+.day {
+  font-size: medium;
+  color: white;
+}
+.weather-img {
+  height: 40%;
+}
+.temprature {
+  height: 20%;
+  color: white;
+  font-size: 4rem;
+}
+.condition {
+  height: 5%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
